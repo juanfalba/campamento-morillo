@@ -1,0 +1,114 @@
+/* CSS para darle un diseño más moderno */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Estilo para el menú de navegación */
+#menu {
+    background-color: #444;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#lista-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    margin: 0 1rem;
+}
+
+/* Estilo de los enlaces del menú */
+.enlace-menu {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.enlace-menu:hover {
+    background-color: #ffcc00;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(255, 204, 0, 0.3);
+}
+
+.content {
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #444;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.imagen-izquierda img, .imagen-centro img, .imagen-derecha img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 1rem auto;
+    display: block;
+}
+
+.imagen-centro img {
+    max-width: 500px;
+}
+
+.institucion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.institucion img {
+    width: 150px;
+    height: auto;
+    margin-right: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+section {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 800px;
+}
+
+#ubicacion .mapa iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
